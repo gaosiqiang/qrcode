@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "vendor\\": "vendor",
+      "app\\": "module"
+    }
+  },
+  "require": {
+    "endroid/qr-code": "^3.4"
+  }
+}

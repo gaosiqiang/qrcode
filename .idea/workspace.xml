@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="892328b1-279a-4089-a42c-7fca34412081" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/url.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/url.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/controller/ImgController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/controller/ImgController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/autoload_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/autoload_function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/autoload_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/autoload_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/AbstractEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/AbstractEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/BitArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/BitArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/BitMatrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/BitMatrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/BitUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/BitUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/CharacterSetEci.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/CharacterSetEci.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/EcBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/EcBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/EcBlocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/EcBlocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/ErrorCorrectionLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/ErrorCorrectionLevel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/FormatInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/FormatInformation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/Mode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/Mode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/ReedSolomonCodec.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/ReedSolomonCodec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Common/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/BlockPair.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/BlockPair.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/ByteMatrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/ByteMatrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/Encoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/Encoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/MaskUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/MaskUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/MatrixUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/MatrixUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/QrCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Encoder/QrCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/OutOfBoundsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/OutOfBoundsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/UnexpectedValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/WriterException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Exception/WriterException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/Cmyk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/Cmyk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/ColorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/ColorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/Gray.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/Gray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/Rgb.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Color/Rgb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/AbstractRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/AbstractRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Decorator/DecoratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Decorator/DecoratorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Decorator/FinderPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Decorator/FinderPattern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Eps.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Eps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Png.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Png.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/RendererInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/RendererInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Image/Svg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/RendererInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/RendererInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Text/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Text/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Text/Plain.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Renderer/Text/Plain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/BaconQrCode/Writer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/BitArrayTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/BitArrayTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/BitMatrixTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/BitMatrixTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/BitUtilsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/BitUtilsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/ErrorCorrectionLevelTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/ErrorCorrectionLevelTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/FormatInformationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/FormatInformationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/ModeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/ModeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/ReedSolomonCodecTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/ReedSolomonCodecTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/VersionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Common/VersionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Encoder/EncoderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Encoder/EncoderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Encoder/MaskUtilTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Encoder/MaskUtilTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Encoder/MatrixUtilTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Encoder/MatrixUtilTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Renderer/Text/HtmlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Renderer/Text/HtmlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Renderer/Text/TextTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/BaconQrCode/Renderer/Text/TextTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/tests/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/base/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/base/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/src/Installer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/src/Installer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/installer/tests/InstallerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/installer/tests/InstallerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/assets/fonts/noto_sans.otf" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/assets/fonts/noto_sans.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/assets/images/symfony.png" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/assets/images/symfony.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/ErrorCorrectionLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/ErrorCorrectionLevel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/InvalidPathException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/InvalidPathException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/InvalidWriterException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/InvalidWriterException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/MissingExtensionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/MissingExtensionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/MissingFunctionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/MissingFunctionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/MissingLogoHeightException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/MissingLogoHeightException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/QrCodeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/QrCodeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/UnsupportedExtensionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/UnsupportedExtensionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/ValidationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Exception/ValidationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Factory/QrCodeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Factory/QrCodeFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Factory/QrCodeFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Factory/QrCodeFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/LabelAlignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/LabelAlignment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/QrCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/QrCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/QrCodeInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/QrCodeInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Response/QrCodeResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Response/QrCodeResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/AbstractWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/AbstractWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/BinaryWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/BinaryWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/DebugWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/DebugWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/EpsWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/EpsWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/PngWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/PngWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/SvgWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/SvgWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/WriterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/WriterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/WriterRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/WriterRegistry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/src/WriterRegistryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/src/WriterRegistryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/endroid/qr-code/tests/output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/endroid/qr-code/tests/output/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Binarizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Binarizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/BinaryBitmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/BinaryBitmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/ChecksumException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/ChecksumException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/AbstractEnum.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/AbstractEnum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/BitArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/BitArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/BitMatrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/BitMatrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/BitSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/BitSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/CharacterSetECI.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/CharacterSetECI.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/DecoderResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/DecoderResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/DefaultGridSampler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/DefaultGridSampler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Detector/MathUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Detector/MathUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Detector/MonochromeRectangleDetector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Detector/MonochromeRectangleDetector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/DetectorResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/DetectorResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/GlobalHistogramBinarizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/GlobalHistogramBinarizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/GridSampler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/GridSampler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/HybridBinarizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/HybridBinarizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/PerspectiveTransform.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/PerspectiveTransform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/GenericGF.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/GenericGF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/GenericGFPoly.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/GenericGFPoly.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/ReedSolomonDecoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/ReedSolomonDecoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/ReedSolomonException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/Reedsolomon/ReedSolomonException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/customFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Common/customFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/FormatException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/FormatException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/GDLuminanceSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/GDLuminanceSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/IMagickLuminanceSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/IMagickLuminanceSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/LuminanceSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/LuminanceSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/NotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/PlanarYUVLuminanceSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/PlanarYUVLuminanceSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/BitMatrixParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/BitMatrixParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/DataBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/DataBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/DataMask.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/DataMask.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/DecodedBitStreamParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/DecodedBitStreamParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/Decoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/Decoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/ErrorCorrectionLevel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/ErrorCorrectionLevel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/FormatInformation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/FormatInformation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/Mode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/Mode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Decoder/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/AlignmentPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/AlignmentPattern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/AlignmentPatternFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/AlignmentPatternFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/Detector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/Detector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/FinderPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/FinderPattern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/FinderPatternFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/FinderPatternFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/FinderPatternInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/Detector/FinderPatternInfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/QRCodeReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Qrcode/QRCodeReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/RGBLuminanceSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/RGBLuminanceSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/ReaderException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/ReaderException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/ResultPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/lib/ResultPoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/tests/QrReaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/tests/QrReaderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/tests/qrcodes/hello_world.png" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder/tests/qrcodes/hello_world.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/myclabs/php-enum/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/myclabs/php-enum/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/myclabs/php-enum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/myclabs/php-enum/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/myclabs/php-enum/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/myclabs/php-enum/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/myclabs/php-enum/src/Enum.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/myclabs/php-enum/src/Enum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/request/HandleRquest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/request/HandleRquest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/inflector/Inflector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/Inflector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/inflector/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/inflector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/inflector/Tests/InflectorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/Tests/InflectorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/inflector/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/inflector/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Debug/OptionsResolverIntrospector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Debug/OptionsResolverIntrospector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/AccessException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/AccessException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/InvalidOptionsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/InvalidOptionsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/MissingOptionsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/MissingOptionsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/NoConfigurationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/NoConfigurationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/NoSuchOptionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/NoSuchOptionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/OptionDefinitionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/OptionDefinitionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/UndefinedOptionsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Exception/UndefinedOptionsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Options.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/OptionsResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/OptionsResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Tests/Debug/OptionsResolverIntrospectorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Tests/Debug/OptionsResolverIntrospectorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/Tests/OptionsResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/Tests/OptionsResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/AccessException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/AccessException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/InvalidPropertyPathException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/InvalidPropertyPathException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/NoSuchIndexException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/NoSuchIndexException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/NoSuchPropertyException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/NoSuchPropertyException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/OutOfBoundsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/OutOfBoundsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/UnexpectedTypeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Exception/UnexpectedTypeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccessor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccessorBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccessorBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccessorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyAccessorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPath.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPath.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathIteratorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/PropertyPathIteratorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/NonTraversableArrayObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/NonTraversableArrayObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/ReturnTyped.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/ReturnTyped.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassIsWritable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassIsWritable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassMagicCall.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassMagicCall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassMagicGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassMagicGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassSetValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassSetValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassTypeErrorInsideCall.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TestClassTypeErrorInsideCall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/Ticket5775Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/Ticket5775Object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TraversableArrayObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TraversableArrayObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TypeHinted.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/Fixtures/TypeHinted.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorArrayAccessTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorArrayAccessTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorArrayObjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorArrayObjectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorArrayTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorArrayTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorCollectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorCollectionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorNonTraversableArrayObjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorNonTraversableArrayObjectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorTraversableArrayObjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyAccessorTraversableArrayObjectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyPathBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyPathBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyPathTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/Tests/PropertyPathTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/property-access/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/request/HandleRquest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/base/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/controller/ImgController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#33#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/controller/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Endroid\QrCode</find>
+      <find>QrCode</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/base/Appliction.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/module/controller/TestController.php" />
+        <option value="$PROJECT_DIR$/vendor/base/Application.php" />
+        <option value="$PROJECT_DIR$/module/controller/ImgController.php" />
+        <option value="$PROJECT_DIR$/module/controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/vendor/request/HandleRquest.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/endroid/installer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="360" />
+    <option name="y" value="66" />
+    <option name="width" value="1080" />
+    <option name="height" value="640" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="khanamiryan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="892328b1-279a-4089-a42c-7fca34412081" name="Default Changelist" comment="" />
+      <created>1542185770846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542185770846</updated>
+      <workItem from="1542185772896" duration="11698000" />
+      <workItem from="1542259693861" duration="1665000" />
+      <workItem from="1542261574888" duration="4426000" />
+      <workItem from="1542272448164" duration="588000" />
+      <workItem from="1542350556112" duration="2400000" />
+      <workItem from="1574272403717" duration="688000" />
+      <workItem from="1574273214626" duration="143000" />
+      <workItem from="1574274028579" duration="521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22129000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="360" y="66" width="1080" height="640" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14450867" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/base/Appliction.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/controller/TestController.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/endroid/qr-code/src/QrCodeInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/endroid/qr-code/src/Writer/WriterInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/endroid/qr-code/src/QrCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#203#253#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="543" column="30" lean-forward="true" selection-start-line="543" selection-start-column="30" selection-end-line="543" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="135" column="17" lean-forward="true" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="489" column="7" lean-forward="true" selection-start-line="489" selection-start-column="7" selection-end-line="489" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/request/HandleRquest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/base/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/controller/ImgController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#33#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
